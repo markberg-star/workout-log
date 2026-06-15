@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 941 1672" role="img" aria-label="Miami inspired training field background">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003a2a"/>
+      <stop offset="0.48" stop-color="#006847"/>
+      <stop offset="1" stop-color="#001f17"/>
+    </linearGradient>
+    <radialGradient id="light" cx="79%" cy="22%" r="42%">
+      <stop offset="0" stop-color="#ff8a1f" stop-opacity=".78"/>
+      <stop offset=".28" stop-color="#ff8a1f" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#ff8a1f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="turf" x1="0" y1=".58" x2="1" y2="1">
+      <stop offset="0" stop-color="#033b28"/>
+      <stop offset="1" stop-color="#001b13"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .13"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="941" height="1672" fill="url(#sky)"/>
+  <rect width="941" height="1672" fill="url(#light)"/>
+  <path d="M0 1052c177-74 337-103 486-86 151 18 303 85 455 203v503H0Z" fill="url(#turf)"/>
+  <g opacity=".24" stroke="#dff8ee" stroke-width="4">
+    <path d="M470 986v686"/>
+    <path d="M118 1160h705"/>
+    <path d="M86 1278h765"/>
+    <path d="M52 1410h835"/>
+    <path d="M15 1564h911"/>
+    <path d="M284 1002 148 1672"/>
+    <path d="M656 1002 792 1672"/>
+  </g>
+  <g fill="#00140f" opacity=".68">
+    <path d="M147 436c-38-112-21-223 51-333-11 83 0 150 35 202 24-75 70-136 137-184-42 74-60 137-53 189 55-59 119-96 194-111-75 42-123 91-144 148 77-18 148-11 214 22-86 1-152 23-198 66 54 21 102 57 144 107-81-40-151-51-211-32 21 79 14 162-22 250-7-110-38-191-93-244-35 67-85 122-151 163 51-80 84-161 97-243Z"/>
+    <path d="M746 520c-29-88-16-177 38-266-8 66 0 120 28 163 18-61 55-110 109-149-34 59-47 111-42 153 44-48 96-78 155-90-59 34-98 73-115 119 61-14 118-8 171 18-68 1-121 19-158 53 44 18 82 46 116 86-65-31-121-40-169-25 17 63 11 130-18 199-6-87-31-152-75-195-28 54-68 98-121 130 41-64 67-129 81-196Z"/>
+  </g>
+  <g opacity=".94">
+    <path d="M-95 1157c208-62 399-94 573-96-177 39-378 107-603 205Z" fill="#f96302"/>
+    <path d="M797 1323c-277 72-497 155-661 250 241-69 535-126 883-170Z" fill="#ff7a1a"/>
+    <path d="M-70 299c178 38 357 80 537 126-172-2-355-25-548-70Z" fill="#f96302"/>
+  </g>
+  <g opacity=".3" stroke="#20d7a0" stroke-width="2">
+    <path d="M0 0h941v1672H0z"/>
+    <path d="M0 120 941 0"/>
+    <path d="M0 240 941 40"/>
+    <path d="M0 360 941 110"/>
+  </g>
+  <rect width="941" height="1672" filter="url(#grain)" opacity=".62"/>
+</svg>
